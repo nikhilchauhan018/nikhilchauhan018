@@ -78,7 +78,7 @@ nikhil@github:~$ _
 
 ## DEVELOPER MODE
 
-<img src="./assets/developer.svg" width="100%" alt="Animated developer dashboard"/>
+<img src="developer.svg" width="100%" alt="Animated developer dashboard"/>
 
 </td>
 
