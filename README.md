@@ -154,6 +154,16 @@ nikhil@github:~$ echo $NEXT
 
 ---
 
+<div align="center">
+
+# 🌌 TECH UNIVERSE
+
+<img width="55%" src="tech-orbit.svg" alt="Tech stack orbiting animation"/>
+
+</div>
+
+---
+
 <table>
 <tr>
 
@@ -419,9 +429,9 @@ flowchart TD
 
 # 📊 GITHUB ANALYTICS
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=nikhilchauhan018&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050816&title_color=FF0080&icon_color=00E5FF&text_color=FFFFFF&border_radius=12"/>
+<img height="180" src="profile/stats.svg"/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhilchauhan018&layout=compact&hide_border=true&langs_count=8&bg_color=050816&title_color=FF0080&text_color=FFFFFF&border_radius=12"/>
+<img height="180" src="profile/top-langs.svg"/>
 
 <br><br>
 
@@ -430,16 +440,6 @@ flowchart TD
 <br><br>
 
 <img src="https://github-profile-trophy.vercel.app/?username=nikhilchauhan018&theme=algolia&no-frame=true&no-bg=true&margin-w=15&row=1"/>
-
-</div>
-
----
-
-<div align="center">
-
-# 📈 GITHUB ACTIVITY
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nikhilchauhan018&bg_color=050816&color=FF0080&line=00E5FF&point=FFD700&area=true&hide_border=true&area_color=8B5CF6"/>
 
 </div>
 
