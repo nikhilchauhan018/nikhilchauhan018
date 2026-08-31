@@ -1,47 +1,50 @@
 <!-- ========================================================= -->
-<!--              NIKHIL KUMAR CHAUHAN | DEVELOPER OS           -->
+<!--         NIKHIL KUMAR CHAUHAN | DEVELOPER OS v2.0            -->
 <!-- ========================================================= -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:050816,50:071A36,100:050816&height=4&section=header"/>
+<img width="100%" src="hero-banner.svg" alt="Nikhil Kumar Chauhan - animated hero banner"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=NIKHIL+KUMAR+CHAUHAN;FULL-STACK+SOFTWARE+ENGINEER;REACT.JS+%7C+NEXT.JS+%7C+NODE.JS+%7C+TYPESCRIPT;BUILDING+SCALABLE+PRODUCTION-READY+APPLICATIONS"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=800&color=00E5FF,FF0080,FFD700,8B5CF6,00FF88&center=true&vCenter=true&multiline=true&width=900&height=100&lines=%F0%9F%9A%80+REACT.JS+%7C+NEXT.JS+%7C+NODE.JS+%7C+TYPESCRIPT;%F0%9F%92%A1+BUILDING+SCALABLE+PRODUCTION-READY+APPS;%E2%9A%A1+CODE.+LEARN.+BUILD.+REPEAT."/>
 
 <br>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF88?style=for-the-badge&labelColor=050816"/>
-<img src="https://img.shields.io/badge/ENGINEER-FULL--STACK-00E5FF?style=for-the-badge&labelColor=050816"/>
-<img src="https://img.shields.io/badge/FOCUS-SOFTWARE%20ENGINEERING-8B5CF6?style=for-the-badge&labelColor=050816"/>
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF88?style=for-the-badge&labelColor=050816&logo=statuspage&logoColor=00FF88"/>
+<img src="https://img.shields.io/badge/ENGINEER-FULL--STACK-00E5FF?style=for-the-badge&labelColor=050816&logo=codefactor&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/FOCUS-SOFTWARE%20ENGINEERING-FF0080?style=for-the-badge&labelColor=050816&logo=target&logoColor=FF0080"/>
+<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-FFD700?style=for-the-badge&labelColor=050816&logo=briefcase&logoColor=FFD700"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,python,java,sql,mysql,postgres,mongodb,docker,aws,git,github&perline=14"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,js,python,java,sql,mysql,postgres,mongodb,docker,aws,git,github&perline=15&theme=dark"/>
 
 <br><br>
 
-> **Building scalable, responsive, and production-ready web applications with modern frontend and backend technologies.**
+> 🛰️ **Building scalable, responsive, and production-ready web applications with modern frontend and backend technologies.**
 
 <br>
 
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+<a href="https://github.com/nikhilchauhan018">
+<img src="https://img.shields.io/badge/GITHUB-FF0080?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
 </a>
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+<a href="https://www.linkedin.com/in/nikhil-kumar-chauhan-795964331/">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/>
 </a>
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+<a href="mailto:nikhilkumarchauhan165@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/>
 </a>
-<a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF"/>
+<a href="https://nikhilweb018.netlify.app/">
+<img src="https://img.shields.io/badge/PORTFOLIO-00E5FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117"/>
 </a>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=PROFILE+VIEWS&color=00e5ff&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=nikhilchauhan018&label=PROFILE+VIEWS&color=ff0080&style=for-the-badge"/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF0080,50:8B5CF6,100:00E5FF&height=4"/>
 
 </div>
 
@@ -52,7 +55,7 @@
 
 <td width="48%" valign="top">
 
-## TERMINAL
+### 💻 TERMINAL
 
 ```text
 nikhil@github:~$ whoami
@@ -76,7 +79,7 @@ nikhil@github:~$ _
 
 <td width="52%" valign="top">
 
-## DEVELOPER MODE
+### 🌌 DEVELOPER MODE
 
 <img src="developer.svg" width="100%" alt="Animated developer dashboard"/>
 
@@ -87,55 +90,55 @@ nikhil@github:~$ _
 
 ---
 
+<div align="center">
+
+## ⚡ SYSTEM STATUS
+
+</div>
+
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
-## SYSTEM STATUS
-
 ```text
-┌─────────────────────────────────────────┐
-│             DEVELOPER OS                │
-├─────────────────────────────────────────┤
-│                                         │
-│  FRONTEND       ████████████████  ON    │
-│  BACKEND        ███████████████░  ON    │
-│  DATABASE       ██████████████░░  ON    │
-│  API            ███████████████░  ON    │
-│  GIT WORKFLOW   ████████████████  ON    │
-│  DEVOPS         ████████░░░░░░░  BUILD  │
-│                                         │
-│  BUILDING       ACTIVE                  │
-│  LEARNING       ACTIVE                  │
-│  OPEN SOURCE    ACTIVE                  │
-│                                         │
-└─────────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│              DEVELOPER OS                │
+├──────────────────────────────────────────┤
+│                                          │
+│  FRONTEND       🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  100%  │
+│  BACKEND        🟦🟦🟦🟦🟦🟦🟦🟦🟦░  95%   │
+│  DATABASE       🟪🟪🟪🟪🟪🟪🟪🟪░░  85%   │
+│  API DESIGN     🟧🟧🟧🟧🟧🟧🟧🟧🟧░  92%   │
+│  GIT WORKFLOW   🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥  100% │
+│  DEVOPS         🟨🟨🟨🟨🟨░░░░░░  50%   │
+│                                          │
+│  🟢 BUILDING       ACTIVE                │
+│  🟢 LEARNING       ACTIVE                │
+│  🟢 OPEN SOURCE    ACTIVE                │
+│                                          │
+└──────────────────────────────────────────┘
 ```
 
 </td>
 
 <td width="50%" valign="top">
-
-## CURRENT MISSION
 
 ```text
 nikhil@github:~$ cat mission.txt
 
-01  Build real products
-02  Write maintainable code
-03  Improve system design
-04  Learn modern engineering
-05  Contribute to open source
-06  Keep shipping
+🎯 01  Build real products
+🎯 02  Write maintainable code
+🎯 03  Improve system design
+🎯 04  Learn modern engineering
+🎯 05  Contribute to open source
+🎯 06  Keep shipping
 
 nikhil@github:~$ echo $NEXT
 
-Become a stronger software engineer.
+🚀 Become a stronger software engineer.
 ```
 
 </td>
-
 </tr>
 </table>
 
@@ -143,9 +146,9 @@ Become a stronger software engineer.
 
 <div align="center">
 
-# ENGINEERING STACK
+# 🧠 ENGINEERING STACK
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,react,nextjs,html,css,tailwind,reactnative,vite,nodejs,express,django,mysql,postgres,mongodb,git,github,githubactions,docker,linux,aws,vercel,jest,postman,vscode,figma&perline=15"/>
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,react,nextjs,html,css,tailwind,reactnative,vite,nodejs,express,django,mysql,postgres,mongodb,git,github,githubactions,docker,linux,aws,vercel,jest,postman,vscode,figma&perline=15&theme=dark"/>
 
 </div>
 
@@ -156,52 +159,52 @@ Become a stronger software engineer.
 
 <td width="33%" valign="top">
 
-## STRONG
+### 🔥 STRONG
 
-<img src="https://skillicons.dev/icons?i=react,js,html,css,git,github"/>
+<img src="https://skillicons.dev/icons?i=react,js,html,css,git,github&theme=dark"/>
 
-**React.js**  
-**JavaScript**  
-**HTML5 / CSS3**  
+**React.js**
+**JavaScript**
+**HTML5 / CSS3**
 **Git / GitHub**
 
-Responsive Design  
-REST API Integration  
+Responsive Design
+REST API Integration
 Modern Frontend Development
 
 </td>
 
 <td width="34%" valign="top">
 
-## WORKING KNOWLEDGE
+### ⚙️ WORKING KNOWLEDGE
 
-<img src="https://skillicons.dev/icons?i=nextjs,ts,nodejs,express,mysql"/>
+<img src="https://skillicons.dev/icons?i=nextjs,ts,nodejs,express,mysql&theme=dark"/>
 
-**Next.js**  
-**TypeScript**  
-**Node.js / Express**  
+**Next.js**
+**TypeScript**
+**Node.js / Express**
 **SQL**
 
-API Design  
-Authentication / Authorization  
+API Design
+Authentication / Authorization
 Database Design
 
 </td>
 
 <td width="33%" valign="top">
 
-## LEARNING
+### 🌱 LEARNING
 
-<img src="https://skillicons.dev/icons?i=docker,aws,githubactions"/>
+<img src="https://skillicons.dev/icons?i=docker,aws,githubactions&theme=dark"/>
 
-**Docker**  
-**AWS**  
-**CI/CD**  
-**Testing**  
+**Docker**
+**AWS**
+**CI/CD**
+**Testing**
 **System Design**
 
-Cloud Fundamentals  
-Deployment  
+Cloud Fundamentals
+Deployment
 Scalable Architecture
 
 </td>
@@ -211,125 +214,41 @@ Scalable Architecture
 
 ---
 
-## FEATURED PROJECTS
+<div align="center">
+
+# 🚀 FEATURED PROJECTS
+
+</div>
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### GYLO Fresh
-
-**Grocery E-Commerce Platform**
-
-A modern grocery e-commerce platform focused on a smooth customer experience and scalable application architecture.
-
-**Problem → Solution → Product**
-
-- Product discovery
-- Shopping cart
-- Authentication
-- Order management
-- Checkout flow
-- Responsive interface
-- REST API integration
-
-<img src="https://skillicons.dev/icons?i=react,ts,nodejs,express,mongodb"/>
+<img width="100%" src="gylo-card.svg" alt="GYLO Fresh project card"/>
 
 <br><br>
 
 <a href="YOUR_GYLO_REPO">
-<img src="https://img.shields.io/badge/REPOSITORY-00E5FF?style=for-the-badge&logo=github&logoColor=000000"/>
+<img src="https://img.shields.io/badge/REPOSITORY-FF0080?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-<a href="YOUR_GYLO_DEMO">
-<img src="https://img.shields.io/badge/LIVE_DEMO-8B5CF6?style=for-the-badge&logo=vercel&logoColor=FFFFFF"/>
+<a href="https://gylo.in/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </td>
 
 <td width="50%" valign="top">
 
-### Doctor Appointment
-
-**Appointment Booking Platform**
-
-A full-stack platform designed to simplify doctor discovery and appointment scheduling.
-
-**Problem → Solution → Product**
-
-- Doctor profiles
-- Appointment booking
-- User accounts
-- Authentication
-- Appointment management
-- REST APIs
-- Responsive UI
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mysql"/>
+<img width="100%" src="doctor-card.svg" alt="Doctor Appointment project card"/>
 
 <br><br>
 
 <a href="YOUR_DOCTOR_REPO">
-<img src="https://img.shields.io/badge/REPOSITORY-00E5FF?style=for-the-badge&logo=github&logoColor=000000"/>
+<img src="https://img.shields.io/badge/REPOSITORY-00E5FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-<a href="YOUR_DOCTOR_DEMO">
-<img src="https://img.shields.io/badge/LIVE_DEMO-8B5CF6?style=for-the-badge&logo=vercel&logoColor=FFFFFF"/>
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### Donation & Charity Platform
-
-**Full-Stack Donation System**
-
-A platform connecting donors and charitable initiatives through a modern full-stack application.
-
-- Donation workflow
-- User authentication
-- Organization management
-- Donation tracking
-- Secure APIs
-- Responsive design
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb"/>
-
-<br><br>
-
-<a href="YOUR_DONATION_REPO">
-<img src="https://img.shields.io/badge/REPOSITORY-00E5FF?style=for-the-badge&logo=github&logoColor=000000"/>
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### GreenSort
-
-**Smart Plant-Selection Startup**
-
-A smart plant-selection concept focused on helping users discover suitable plants.
-
-- Smart selection
-- Plant discovery
-- Modern interface
-- Responsive design
-- Product experience
-- Startup-oriented architecture
-
-<img src="https://skillicons.dev/icons?i=react,js,nodejs"/>
-
-<br><br>
-
-<a href="YOUR_GREENSORT_REPO">
-<img src="https://img.shields.io/badge/REPOSITORY-00E5FF?style=for-the-badge&logo=github&logoColor=000000"/>
+<a href="https://doctor-appointment-cu8t.vercel.app/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-FFD700?style=for-the-badge&logo=vercel&logoColor=black"/>
 </a>
 
 </td>
@@ -340,35 +259,61 @@ A smart plant-selection concept focused on helping users discover suitable plant
 
 <td width="50%" valign="top">
 
-### Relaxi
+<img width="100%" src="donation-card.svg" alt="Donation and Charity project card"/>
 
+<br><br>
+
+<a href="https://donattion-charity.netlify.app/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-00FF88?style=for-the-badge&logo=vercel&logoColor=black"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<img width="100%" src="greensort-card.svg" alt="GreenSort project card"/>
+
+<br><br>
+
+<a href="https://greensort.in/">
+<img src="https://img.shields.io/badge/LIVE_DEMO-FF8C00?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### ⏰ Relaxi
 **Patented Smart Alarm Project**
 
 A smart alarm project focused on intelligent wake-up experiences and adaptive alarm behavior.
 
-- Smart alarm concept
-- Intelligent behavior
-- Product innovation
-- User experience
-- Patented project
+- 🧠 Smart alarm concept
+- 🤖 Intelligent behavior
+- 💡 Product innovation
+- ✨ User experience
+- 📜 Patented project
 
 </td>
 
 <td width="50%" valign="top">
 
-### RGB-D Facial Micro-Motion
-
+### 🎥 RGB-D Facial Micro-Motion
 **Major / Research Project**
 
 A research-oriented system using RGB-D data and temporal facial micro-motion analysis.
 
-- RGB-D data
-- Facial analysis
-- Temporal information
-- Micro-motion detection
-- Research-oriented system
+- 📷 RGB-D data
+- 😐 Facial analysis
+- ⏱️ Temporal information
+- 🔬 Micro-motion detection
+- 🧪 Research-oriented system
 
-<img src="https://skillicons.dev/icons?i=python"/>
+<img src="https://skillicons.dev/icons?i=python&theme=dark"/>
 
 </td>
 
@@ -379,7 +324,7 @@ A research-oriented system using RGB-D data and temporal facial micro-motion ana
 
 <div align="center">
 
-## SOFTWARE ENGINEERING
+## 🏗️ SOFTWARE ENGINEERING
 
 </div>
 
@@ -388,44 +333,44 @@ A research-oriented system using RGB-D data and temporal facial micro-motion ana
 
 <td width="33%" valign="top">
 
-### CORE
+### 🧩 CORE
 
-OOP  
-Data Structures & Algorithms  
-Design Patterns  
-SOLID Principles  
-Clean Code  
+OOP
+Data Structures & Algorithms
+Design Patterns
+SOLID Principles
+Clean Code
 System Design Fundamentals
 
 </td>
 
 <td width="33%" valign="top">
 
-### API & SECURITY
+### 🔒 API & SECURITY
 
-Authentication  
-Authorization  
-JWT  
-Password Hashing  
-CORS  
-Input Validation  
-Middleware  
-Error Handling  
+Authentication
+Authorization
+JWT
+Password Hashing
+CORS
+Input Validation
+Middleware
+Error Handling
 API Security
 
 </td>
 
 <td width="33%" valign="top">
 
-### ENGINEERING
+### 🛠️ ENGINEERING
 
-SDLC  
-Agile / Scrum  
-Debugging  
-Code Review  
-Unit Testing  
-Integration Testing  
-API Testing  
+SDLC
+Agile / Scrum
+Debugging
+Code Review
+Unit Testing
+Integration Testing
+API Testing
 CI/CD
 
 </td>
@@ -437,46 +382,33 @@ CI/CD
 
 <div align="center">
 
-# SYSTEM ARCHITECTURE
+# 🗺️ SYSTEM ARCHITECTURE
 
-```text
-                         ┌─────────────────┐
-                         │      USER       │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                 ┌─────────────────────────────┐
-                 │         FRONTEND            │
-                 │                             │
-                 │ React.js / Next.js          │
-                 │ TypeScript / Tailwind       │
-                 └─────────────┬───────────────┘
-                               │
-                               ▼
-                 ┌─────────────────────────────┐
-                 │          API LAYER          │
-                 │                             │
-                 │ REST / Auth / Validation    │
-                 └─────────────┬───────────────┘
-                               │
-                               ▼
-                 ┌─────────────────────────────┐
-                 │          BACKEND            │
-                 │                             │
-                 │ Node / Express / Django     │
-                 └─────────────┬───────────────┘
-                               │
-                  ┌────────────┼────────────┐
-                  ▼            ▼            ▼
-              ┌────────┐  ┌──────────┐  ┌──────────┐
-              │ MySQL  │  │PostgreSQL│  │ MongoDB  │
-              └────────┘  └──────────┘  └──────────┘
-                               │
-                               ▼
-                 ┌─────────────────────────────┐
-                 │           DEVOPS            │
-                 │ Git / Docker / CI/CD / AWS │
-                 └─────────────────────────────┘
+```mermaid
+flowchart TD
+    U["🧑‍💻 USER"]:::user
+    FE["🎨 FRONTEND<br/>React.js / Next.js<br/>TypeScript / Tailwind"]:::frontend
+    API["🔗 API LAYER<br/>REST / Auth / Validation"]:::api
+    BE["⚙️ BACKEND<br/>Node / Express / Django"]:::backend
+    DB1["🗄️ MySQL"]:::db
+    DB2["🗄️ PostgreSQL"]:::db
+    DB3["🗄️ MongoDB"]:::db
+    DO["☁️ DEVOPS<br/>Git / Docker / CI-CD / AWS"]:::devops
+
+    U --> FE --> API --> BE
+    BE --> DB1
+    BE --> DB2
+    BE --> DB3
+    DB1 --> DO
+    DB2 --> DO
+    DB3 --> DO
+
+    classDef user fill:#FFD700,stroke:#FF8C00,stroke-width:2px,color:#000,font-weight:bold
+    classDef frontend fill:#00E5FF,stroke:#0077A3,stroke-width:2px,color:#000,font-weight:bold
+    classDef api fill:#8B5CF6,stroke:#5B21B6,stroke-width:2px,color:#fff,font-weight:bold
+    classDef backend fill:#FF8C00,stroke:#B85C00,stroke-width:2px,color:#000,font-weight:bold
+    classDef db fill:#00FF88,stroke:#00A855,stroke-width:2px,color:#000,font-weight:bold
+    classDef devops fill:#FF0080,stroke:#B8005C,stroke-width:2px,color:#fff,font-weight:bold
 ```
 
 </div>
@@ -485,15 +417,19 @@ CI/CD
 
 <div align="center">
 
-# GITHUB ANALYTICS
+# 📊 GITHUB ANALYTICS
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050816&title_color=00E5FF&icon_color=8B5CF6&text_color=FFFFFF"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=nikhilchauhan018&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050816&title_color=FF0080&icon_color=00E5FF&text_color=FFFFFF&border_radius=12"/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&langs_count=8&bg_color=050816&title_color=00E5FF&text_color=FFFFFF"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhilchauhan018&layout=compact&hide_border=true&langs_count=8&bg_color=050816&title_color=FF0080&text_color=FFFFFF&border_radius=12"/>
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=dark&hide_border=true&background=050816&ring=00E5FF&fire=8B5CF6&currStreakLabel=00E5FF"/>
+<img src="https://streak-stats.demolab.com?user=nikhilchauhan018&theme=dark&hide_border=true&background=050816&ring=FF0080&fire=FFD700&currStreakLabel=00E5FF&border_radius=12"/>
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=nikhilchauhan018&theme=algolia&no-frame=true&no-bg=true&margin-w=15&row=1"/>
 
 </div>
 
@@ -501,9 +437,9 @@ CI/CD
 
 <div align="center">
 
-# GITHUB ACTIVITY
+# 📈 GITHUB ACTIVITY
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=050816&color=00E5FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nikhilchauhan018&bg_color=050816&color=FF0080&line=00E5FF&point=FFD700&area=true&hide_border=true&area_color=8B5CF6"/>
 
 </div>
 
@@ -511,9 +447,13 @@ CI/CD
 
 <div align="center">
 
-# CONTRIBUTION MATRIX
+# 🐍 CONTRIBUTION MATRIX
 
-<img width="100%" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikhilchauhan018/nikhilchauhan018/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikhilchauhan018/nikhilchauhan018/output/github-contribution-grid-snake.svg"/>
+  <img width="100%" src="https://raw.githubusercontent.com/nikhilchauhan018/nikhilchauhan018/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake"/>
+</picture>
 
 </div>
 
@@ -526,10 +466,10 @@ CI/CD
 
 <img src="https://skillicons.dev/icons?i=nextjs" width="55"/>
 
-### BUILDING
+### 🏗️ BUILDING
 
-Next.js  
-Production Apps  
+Next.js
+Production Apps
 Scalable Frontend
 
 </td>
@@ -538,10 +478,10 @@ Scalable Frontend
 
 <img src="https://skillicons.dev/icons?i=ts" width="55"/>
 
-### LEARNING
+### 📚 LEARNING
 
-TypeScript  
-Advanced React  
+TypeScript
+Advanced React
 Backend Architecture
 
 </td>
@@ -550,10 +490,10 @@ Backend Architecture
 
 <img src="https://skillicons.dev/icons?i=docker" width="55"/>
 
-### EXPLORING
+### 🔭 EXPLORING
 
-Docker  
-CI/CD  
+Docker
+CI/CD
 Cloud Deployment
 
 </td>
@@ -562,10 +502,10 @@ Cloud Deployment
 
 <img src="https://skillicons.dev/icons?i=aws" width="55"/>
 
-### IMPROVING
+### 📈 IMPROVING
 
-AWS  
-System Design  
+AWS
+System Design
 Testing
 
 </td>
@@ -577,7 +517,7 @@ Testing
 
 <div align="center">
 
-# DEVELOPER TERMINAL
+# 🖥️ DEVELOPER TERMINAL
 
 ```text
 nikhil@github:~$ ./developer.sh
@@ -586,21 +526,21 @@ Booting Developer OS...
 
 [████████████████████████████████] 100%
 
-Frontend Engine       [ ONLINE ]
-Backend Engine        [ ONLINE ]
-Database Layer        [ ONLINE ]
-API Layer             [ ONLINE ]
-Git Workflow          [ ONLINE ]
-Problem Solving       [ ONLINE ]
+Frontend Engine       [ ✅ ONLINE ]
+Backend Engine        [ ✅ ONLINE ]
+Database Layer        [ ✅ ONLINE ]
+API Layer             [ ✅ ONLINE ]
+Git Workflow          [ ✅ ONLINE ]
+Problem Solving       [ ✅ ONLINE ]
 
 --------------------------------------------
 
 CURRENT MISSION
 
-Build scalable applications.
-Learn modern engineering.
-Solve meaningful problems.
-Keep improving.
+🚀 Build scalable applications.
+📖 Learn modern engineering.
+🧩 Solve meaningful problems.
+📈 Keep improving.
 
 --------------------------------------------
 
@@ -613,7 +553,7 @@ nikhil@github:~$ _
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=900&color=00FF88&center=true&vCenter=true&width=850&lines=Write+clean+code.;Understand+the+problem.;Design+before+building.;Build+for+real+users.;Keep+learning.;Keep+shipping."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=900&color=00FF88,00E5FF,FFD700,FF0080&center=true&vCenter=true&width=850&lines=Write+clean+code.;Understand+the+problem.;Design+before+building.;Build+for+real+users.;Keep+learning.;Keep+shipping."/>
 
 </div>
 
@@ -621,18 +561,18 @@ nikhil@github:~$ _
 
 <div align="center">
 
-# OPEN SOURCE
+# 🌐 OPEN SOURCE
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│              OPEN SOURCE ACTIVITY                           │
-│                                                             │
-│     CONTRIBUTIONS   •   PULL REQUESTS   •   REVIEWS         │
-│                                                             │
-│     BUG FIXES       •   FEATURES         •   COLLABORATION  │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│              🌟 OPEN SOURCE ACTIVITY 🌟                   │
+│                                                           │
+│     CONTRIBUTIONS   •   PULL REQUESTS   •   REVIEWS       │
+│                                                           │
+│     BUG FIXES       •   FEATURES         •   COLLABORATION│
+│                                                           │
+└───────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -641,18 +581,22 @@ nikhil@github:~$ _
 
 <div align="center">
 
-## ENGINEERING PHILOSOPHY
+## 💭 ENGINEERING PHILOSOPHY
 
-**BUILD** &nbsp;&nbsp; **LEARN** &nbsp;&nbsp; **DEBUG** &nbsp;&nbsp; **IMPROVE** &nbsp;&nbsp; **REPEAT**
+<img src="https://img.shields.io/badge/BUILD-FF0080?style=for-the-badge&labelColor=050816"/>
+<img src="https://img.shields.io/badge/LEARN-FF8C00?style=for-the-badge&labelColor=050816"/>
+<img src="https://img.shields.io/badge/DEBUG-00E5FF?style=for-the-badge&labelColor=050816"/>
+<img src="https://img.shields.io/badge/IMPROVE-8B5CF6?style=for-the-badge&labelColor=050816"/>
+<img src="https://img.shields.io/badge/REPEAT-00FF88?style=for-the-badge&labelColor=050816"/>
 
 <br><br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:050816,50:071A36,100:050816&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,25:FF8C00,50:00E5FF,75:8B5CF6,100:FF0080&height=150&section=footer&animation=twinkling"/>
 
-### CODE • LEARN • BUILD • REPEAT
+### ✨ CODE • LEARN • BUILD • REPEAT ✨
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=PROFILE+VIEWS&color=00e5ff&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=nikhilchauhan018&label=PROFILE+VIEWS&color=ff0080&style=for-the-badge"/>
 
 </div>
