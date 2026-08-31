@@ -1,0 +1,120 @@
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spaceBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0A1638"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="planetGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="700" height="700" fill="url(#spaceBg)"/>
+
+  <!-- starfield -->
+  <g fill="#FFFFFF">
+    <circle cx="40" cy="80" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="60" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="640" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="660" cy="600" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="30" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="350" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="360" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="150" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="550" cy="140" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="560" r="1.5"><animate attributeName="opacity" values="1;0.3;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="570" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="670" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="20" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="20" cy="470" r="1.4"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="480" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- orbit rings -->
+  <circle cx="350" cy="350" r="110" fill="none" stroke="#1E3A5F" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="350" cy="350" r="190" fill="none" stroke="#1E3A5F" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="350" cy="350" r="270" fill="none" stroke="#1E3A5F" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <!-- glowing core -->
+  <circle cx="350" cy="350" r="60" fill="url(#coreGlow)" opacity="0.9">
+    <animate attributeName="r" values="55;65;55" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="350" r="34" fill="#050816" stroke="#00E5FF" stroke-width="2"/>
+  <text x="350" y="345" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="18" font-weight="bold" fill="#FFFFFF">NK</text>
+  <text x="350" y="362" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" fill="#00E5FF">DEV CORE</text>
+
+  <!-- ===== ORBIT RING 1 (r=110) — 20s, 26s, 32s ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 350 350" to="360 350 350" dur="20s" repeatCount="indefinite"/>
+    <g transform="translate(350,240)" filter="url(#planetGlow)">
+      <circle r="16" fill="#00E5FF"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="9" font-weight="bold" fill="#050816">⚛</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="120 350 350" to="480 350 350" dur="26s" repeatCount="indefinite"/>
+    <g transform="translate(350,240)" filter="url(#planetGlow)">
+      <circle r="16" fill="#8B5CF6"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#FFFFFF">N.js</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="240 350 350" to="600 350 350" dur="32s" repeatCount="indefinite"/>
+    <g transform="translate(350,240)" filter="url(#planetGlow)">
+      <circle r="16" fill="#3178C6"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#FFFFFF">TS</text>
+    </g>
+  </g>
+
+  <!-- ===== ORBIT RING 2 (r=190) — 40s, 46s, 52s ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 350 350" to="-360 350 350" dur="40s" repeatCount="indefinite"/>
+    <g transform="translate(350,160)" filter="url(#planetGlow)">
+      <circle r="18" fill="#00FF88"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#050816">Node</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="150 350 350" to="-210 350 350" dur="46s" repeatCount="indefinite"/>
+    <g transform="translate(350,160)" filter="url(#planetGlow)">
+      <circle r="18" fill="#FFD700"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#050816">Mongo</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="270 350 350" to="-90 350 350" dur="52s" repeatCount="indefinite"/>
+    <g transform="translate(350,160)" filter="url(#planetGlow)">
+      <circle r="18" fill="#FF0080"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#FFFFFF">SQL</text>
+    </g>
+  </g>
+
+  <!-- ===== ORBIT RING 3 (r=270) — 60s, 68s ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 350 350" to="360 350 350" dur="60s" repeatCount="indefinite"/>
+    <g transform="translate(350,80)" filter="url(#planetGlow)">
+      <circle r="20" fill="#2496ED"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#FFFFFF">Docker</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="180 350 350" to="540 350 350" dur="68s" repeatCount="indefinite"/>
+    <g transform="translate(350,80)" filter="url(#planetGlow)">
+      <circle r="20" fill="#FF8C00"/>
+      <text y="4" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="8" font-weight="bold" fill="#050816">AWS</text>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <text x="350" y="670" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" fill="#8B9BB4">// tech stack in constant orbit</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="560" height="300" viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gyloAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#00FF88"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="558" height="298" rx="14" fill="#0A1024" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <!-- top accent bar -->
+  <rect x="1" y="1" width="558" height="6" rx="3" fill="url(#gyloAccent)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="28" y="46" font-family="Consolas, Monaco, monospace" font-size="22" font-weight="bold" fill="#FFFFFF">🛒 GYLO Fresh</text>
+  <text x="28" y="68" font-family="Consolas, Monaco, monospace" font-size="13" fill="#00E5FF">Grocery E-Commerce Platform</text>
+
+  <line x1="28" y1="82" x2="532" y2="82" stroke="#1E3A5F" stroke-width="1"/>
+
+  <g font-family="Consolas, Monaco, monospace" font-size="13.5" fill="#C7D2E6">
+    <circle cx="32" cy="106" r="3" fill="#00FF88"/>
+    <text x="44" y="110">Product discovery &amp; shopping cart</text>
+
+    <circle cx="32" cy="132" r="3" fill="#00FF88"/>
+    <text x="44" y="136">Authentication &amp; order management</text>
+
+    <circle cx="32" cy="158" r="3" fill="#00FF88"/>
+    <text x="44" y="162">Secure checkout flow</text>
+
+    <circle cx="32" cy="184" r="3" fill="#00FF88"/>
+    <text x="44" y="188">Responsive interface + REST API</text>
+  </g>
+
+  <line x1="28" y1="204" x2="532" y2="204" stroke="#1E3A5F" stroke-width="1"/>
+
+  <g font-family="Consolas, Monaco, monospace" font-size="12" font-weight="bold">
+    <rect x="28" y="218" width="70" height="24" rx="12" fill="#0D2233" stroke="#00E5FF"/>
+    <text x="63" y="234" text-anchor="middle" fill="#00E5FF">React</text>
+
+    <rect x="104" y="218" width="70" height="24" rx="12" fill="#0D2233" stroke="#00E5FF"/>
+    <text x="139" y="234" text-anchor="middle" fill="#00E5FF">TS</text>
+
+    <rect x="180" y="218" width="80" height="24" rx="12" fill="#0D2233" stroke="#00FF88"/>
+    <text x="220" y="234" text-anchor="middle" fill="#00FF88">Node.js</text>
+
+    <rect x="266" y="218" width="80" height="24" rx="12" fill="#0D2233" stroke="#00FF88"/>
+    <text x="306" y="234" text-anchor="middle" fill="#00FF88">Express</text>
+
+    <rect x="352" y="218" width="90" height="24" rx="12" fill="#0D2233" stroke="#8B5CF6"/>
+    <text x="397" y="234" text-anchor="middle" fill="#8B5CF6">MongoDB</text>
+  </g>
+
+  <circle cx="532" cy="24" r="5" fill="#00FF88">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="522" y="28" text-anchor="end" font-family="Consolas, Monaco, monospace" font-size="10" fill="#8B9BB4">LIVE</text>
+</svg>
