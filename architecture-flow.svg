@@ -1,0 +1,194 @@
+<svg width="900" height="1650" viewBox="0 0 900 1650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="dotGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FFD700"/><stop offset="100%" stop-color="#FF8C00"/></linearGradient>
+    <linearGradient id="gCyan" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00E5FF"/><stop offset="100%" stop-color="#0091AB"/></linearGradient>
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#5B21B6"/></linearGradient>
+    <linearGradient id="gOrange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF8C00"/><stop offset="100%" stop-color="#B85C00"/></linearGradient>
+    <linearGradient id="gGreen" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00FF88"/><stop offset="100%" stop-color="#00A855"/></linearGradient>
+    <linearGradient id="gPink" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF0080"/><stop offset="100%" stop-color="#B8005C"/></linearGradient>
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF4D4D"/><stop offset="100%" stop-color="#B80000"/></linearGradient>
+    <linearGradient id="gIndigo" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6366F1"/><stop offset="100%" stop-color="#3730A3"/></linearGradient>
+    <linearGradient id="gGray" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#334155"/><stop offset="100%" stop-color="#1E293B"/></linearGradient>
+  </defs>
+
+  <rect width="900" height="1650" fill="#050816"/>
+
+  <!-- ============ LAYER LABELS (left margin) ============ -->
+  <g font-family="Consolas, Monaco, monospace" font-size="11" fill="#3E5C8A" font-weight="bold">
+    <text x="20" y="65">L0</text>
+    <text x="20" y="190">L1 · EDGE</text>
+    <text x="20" y="310">L2 · TRAFFIC</text>
+    <text x="20" y="430">L3 · GATEWAY</text>
+    <text x="20" y="555">L4 · SECURITY</text>
+    <text x="20" y="740">L5 · SERVICES</text>
+    <text x="20" y="925">L6 · CACHE/QUEUE</text>
+    <text x="20" y="1110">L7 · DATA</text>
+    <text x="20" y="1290">L8 · OBSERVABILITY</text>
+    <text x="20" y="1420">L9 · INFRA</text>
+  </g>
+
+  <!-- ============ MAIN SPINE CONNECTORS (static) ============ -->
+  <g stroke="#1E3A5F" stroke-width="2" fill="none">
+    <line x1="450" y1="90"  x2="450" y2="150"/>
+    <line x1="450" y1="210" x2="450" y2="270"/>
+    <line x1="450" y1="330" x2="450" y2="390"/>
+    <line x1="450" y1="450" x2="450" y2="500"/>
+    <line x1="450" y1="620" x2="450" y2="670"/>
+    <line x1="450" y1="810" x2="450" y2="860"/>
+    <line x1="450" y1="980" x2="450" y2="1030"/>
+    <line x1="450" y1="1150" x2="450" y2="1190" stroke-dasharray="4 5"/>
+    <line x1="450" y1="1190" x2="450" y2="1330" stroke-dasharray="4 5"/>
+  </g>
+
+  <!-- fan lines: gateway -> auth/rate -->
+  <path d="M450,500 L450,530 L280,530 L280,560" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,500 L450,530 L620,530 L620,560" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M280,620 L280,650 L450,650 L450,670" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M620,620 L620,650 L450,650 L450,670" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+
+  <!-- fan lines: auth/rate -> 4 microservices -->
+  <path d="M450,670 L450,690 L130,690 L130,710" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,670 L450,690 L370,690 L370,710" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,670 L450,690 L530,690 L530,710" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,670 L450,690 L770,690 L770,710" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+
+  <!-- fan lines: microservices -> spine converge -->
+  <path d="M130,810 L130,830 L450,830 L450,860" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M370,810 L370,830 L450,830 L450,860" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M530,810 L530,830 L450,830 L450,860" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M770,810 L770,830 L450,830 L450,860" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+
+  <!-- fan lines: spine -> cache + queue -->
+  <path d="M450,860 L450,880 L300,880 L300,900" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,860 L450,880 L600,880 L600,900" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M300,980 L300,1000 L450,1000 L450,1030" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M600,980 L600,1000 L450,1000 L450,1030" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+
+  <!-- fan lines: spine -> db cluster -->
+  <path d="M450,1030 L450,1050 L200,1050 L200,1070" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,1030 L450,1070" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,1030 L450,1050 L700,1050 L700,1070" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M200,1150 L200,1170 L450,1170 L450,1190" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M450,1150 L450,1190" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+  <path d="M700,1150 L700,1170 L450,1170 L450,1190" stroke="#1E3A5F" stroke-width="1.5" fill="none"/>
+
+  <!-- side branch: observability (static, dashed, off main path) -->
+  <path d="M770,750 L860,750 L860,1250" stroke="#3E5C8A" stroke-width="1.5" stroke-dasharray="3 5" fill="none"/>
+  <path d="M860,1250 L780,1250 L780,1270" stroke="#3E5C8A" stroke-width="1.5" stroke-dasharray="3 5" fill="none"/>
+
+  <!-- ============ BOXES ============ -->
+
+  <!-- L0 CLIENT -->
+  <rect x="330" y="40" width="240" height="50" rx="12" fill="url(#gGold)"/>
+  <text x="450" y="71" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="16" font-weight="bold" fill="#050816">CLIENT (Browser / Mobile)</text>
+
+  <!-- L1 CDN / EDGE -->
+  <rect x="290" y="150" width="320" height="60" rx="12" fill="url(#gCyan)"/>
+  <text x="450" y="176" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="15" font-weight="bold" fill="#050816">CDN / EDGE NETWORK</text>
+  <text x="450" y="194" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#050816">Static assets · edge caching</text>
+
+  <!-- L2 LOAD BALANCER -->
+  <rect x="290" y="270" width="320" height="60" rx="12" fill="url(#gGold)"/>
+  <text x="450" y="296" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="15" font-weight="bold" fill="#050816">LOAD BALANCER</text>
+  <text x="450" y="314" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#050816">Traffic distribution · health checks</text>
+
+  <!-- L3 API GATEWAY -->
+  <rect x="290" y="390" width="320" height="60" rx="12" fill="url(#gPurple)"/>
+  <text x="450" y="416" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="15" font-weight="bold" fill="#FFFFFF">API GATEWAY</text>
+  <text x="450" y="434" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">Routing · request validation</text>
+
+  <!-- L4 AUTH + RATE LIMIT -->
+  <rect x="160" y="560" width="240" height="60" rx="12" fill="url(#gPink)"/>
+  <text x="280" y="586" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#FFFFFF">AUTH MIDDLEWARE</text>
+  <text x="280" y="604" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">JWT · session verification</text>
+
+  <rect x="500" y="560" width="240" height="60" rx="12" fill="url(#gPink)"/>
+  <text x="620" y="586" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#FFFFFF">RATE LIMITER</text>
+  <text x="620" y="604" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">Throttling · abuse protection</text>
+
+  <!-- L5 MICROSERVICES (4) -->
+  <rect x="30"  y="710" width="200" height="100" rx="12" fill="url(#gCyan)"/>
+  <text x="130" y="750" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">AUTH</text>
+  <text x="130" y="768" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">SERVICE</text>
+
+  <rect x="270" y="710" width="200" height="100" rx="12" fill="url(#gPurple)"/>
+  <text x="370" y="750" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#FFFFFF">USER</text>
+  <text x="370" y="768" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#FFFFFF">SERVICE</text>
+
+  <rect x="430" y="710" width="200" height="100" rx="12" fill="url(#gOrange)"/>
+  <text x="530" y="750" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">ORDER</text>
+  <text x="530" y="768" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">SERVICE</text>
+
+  <rect x="670" y="710" width="200" height="100" rx="12" fill="url(#gGreen)"/>
+  <text x="770" y="750" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">PAYMENT</text>
+  <text x="770" y="768" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="bold" fill="#050816">SERVICE</text>
+  <text x="130" y="790" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="9" fill="#050816">session mgmt</text>
+  <text x="370" y="790" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="9" fill="#FFFFFF">profiles</text>
+  <text x="530" y="790" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="9" fill="#050816">order logic</text>
+  <text x="770" y="790" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="9" fill="#050816">transactions</text>
+
+  <!-- L6 CACHE + QUEUE -->
+  <rect x="180" y="900" width="240" height="80" rx="12" fill="url(#gRed)"/>
+  <text x="300" y="936" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="14" font-weight="bold" fill="#FFFFFF">REDIS CACHE</text>
+  <text x="300" y="956" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">Session &amp; query cache</text>
+
+  <rect x="480" y="900" width="240" height="80" rx="12" fill="url(#gIndigo)"/>
+  <text x="600" y="936" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="14" font-weight="bold" fill="#FFFFFF">MESSAGE QUEUE</text>
+  <text x="600" y="956" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">Kafka / async events</text>
+
+  <!-- L7 DATABASE CLUSTER (3) -->
+  <rect x="80"  y="1070" width="240" height="80" rx="12" fill="url(#gGreen)"/>
+  <text x="200" y="1106" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="14" font-weight="bold" fill="#050816">PRIMARY DB</text>
+  <text x="200" y="1126" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#050816">Writes · source of truth</text>
+
+  <rect x="330" y="1070" width="240" height="80" rx="12" fill="url(#gGreen)"/>
+  <text x="450" y="1106" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="14" font-weight="bold" fill="#050816">REPLICA DB</text>
+  <text x="450" y="1126" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#050816">Reads · failover</text>
+
+  <rect x="580" y="1070" width="240" height="80" rx="12" fill="url(#gGreen)"/>
+  <text x="700" y="1106" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="14" font-weight="bold" fill="#050816">SHARDED DB</text>
+  <text x="700" y="1126" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#050816">Horizontal scaling</text>
+
+  <!-- L8 OBSERVABILITY (side, static) -->
+  <rect x="660" y="1270" width="240" height="70" rx="12" fill="url(#gGray)"/>
+  <text x="780" y="1300" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="12" font-weight="bold" fill="#00E5FF">ELASTICSEARCH</text>
+  <text x="780" y="1318" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#8B9BB4">search &amp; logs</text>
+
+  <rect x="660" y="1350" width="240" height="70" rx="12" fill="url(#gGray)"/>
+  <text x="780" y="1380" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="12" font-weight="bold" fill="#FFD700">PROMETHEUS / GRAFANA</text>
+  <text x="780" y="1398" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#8B9BB4">metrics &amp; monitoring</text>
+
+  <!-- L9 DEVOPS / INFRA (static) -->
+  <rect x="290" y="1330" width="320" height="60" rx="12" fill="url(#gPink)"/>
+  <text x="450" y="1356" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="15" font-weight="bold" fill="#FFFFFF">DEVOPS / CI-CD / AWS</text>
+  <text x="450" y="1374" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="10" fill="#FFFFFF">Docker · deploy pipelines</text>
+
+  <!-- ============ ANIMATED REQUEST / RESPONSE PATHS ============ -->
+  <path id="reqPath" d="M435,90 L435,150 L435,210 L435,270 L435,330 L435,390 L435,450 L435,500 L435,620 L435,670 L435,810 L435,860 L435,980 L435,1030 L435,1150 L435,1190" fill="none" stroke="none"/>
+  <path id="resPath" d="M465,1190 L465,1150 L465,1030 L465,980 L465,860 L465,810 L465,670 L465,620 L465,500 L465,450 L465,390 L465,330 L465,270 L465,210 L465,150 L465,90" fill="none" stroke="none"/>
+
+  <path d="M435,90 L435,1190" stroke="#FF0080" stroke-width="1" stroke-opacity="0.2" stroke-dasharray="2 4"/>
+  <path d="M465,90 L465,1190" stroke="#00FF88" stroke-width="1" stroke-opacity="0.2" stroke-dasharray="2 4"/>
+
+  <circle r="7" fill="#FF0080" filter="url(#dotGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#reqPath"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="7" fill="#00FF88" filter="url(#dotGlow)">
+    <animateMotion dur="6s" begin="3s" repeatCount="indefinite">
+      <mpath href="#resPath"/>
+    </animateMotion>
+  </circle>
+
+  <text x="390" y="115" text-anchor="end" font-family="Consolas, Monaco, monospace" font-size="11" fill="#FF0080" font-weight="bold">REQUEST ↓</text>
+  <text x="510" y="115" text-anchor="start" font-family="Consolas, Monaco, monospace" font-size="11" fill="#00FF88" font-weight="bold">↑ RESPONSE</text>
+
+  <text x="450" y="1620" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="13" fill="#8B9BB4">// one request — ten layers — microservices, cache, queue &amp; a database cluster before the response returns</text>
+</svg>
