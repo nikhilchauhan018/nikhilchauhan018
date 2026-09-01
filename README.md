@@ -56,12 +56,7 @@
 
 </div>
 
-- 🎯 Full-Stack Software Engineer focused on building **scalable, production-ready web applications**
-- 🧠 Comfortable across the stack — from crafting responsive **React / Next.js** interfaces to designing secure **Node.js / Express** APIs and relational + NoSQL databases
-- 🚀 Currently building real-world products like **GYLO Fresh**, a **Doctor Appointment platform**, and a **Donation & Charity system**
-- 📚 Actively deepening my knowledge of **TypeScript, system design, Docker, and cloud deployment (AWS)**
-- 🤝 Open to **collaboration, open-source contributions, and full-stack engineering opportunities**
-- ⚡ Fun fact: I believe in **clean code, clear architecture, and shipping consistently** over chasing shortcuts
+> I'm **Nikhil Kumar Chauhan**, a **Full-Stack Software Engineer** focused on building modern, scalable, and maintainable web applications. I have hands-on experience developing complete products across the frontend and backend using **React.js, Next.js, TypeScript, Node.js, Express.js, REST APIs, and SQL/NoSQL databases**. I've built and worked on real-world applications including **GYLO Fresh** (a grocery e-commerce platform), a **Doctor Appointment Platform**, and a **Donation & Charity System**, along with research and software projects involving data processing and computer vision. I'm also a **Co-Founder of GreenSort** and have contributed to a **published patent project**. Currently, I'm strengthening my expertise in **system design, software architecture, Docker, AWS, cloud deployment, and backend engineering**, while actively looking for opportunities to contribute to impactful software products.
 
 ---
 
@@ -384,32 +379,7 @@ A research-oriented system using RGB-D data and temporal facial micro-motion ana
 
 # <img width="26" valign="middle" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f5fa.png"/> SYSTEM ARCHITECTURE
 
-```mermaid
-flowchart TD
-    U["🧑‍💻 USER"]:::user
-    FE["🎨 FRONTEND<br/>React.js / Next.js<br/>TypeScript / Tailwind"]:::frontend
-    API["🔗 API LAYER<br/>REST / Auth / Validation"]:::api
-    BE["⚙️ BACKEND<br/>Node / Express / Django"]:::backend
-    DB1["🗄️ MySQL"]:::db
-    DB2["🗄️ PostgreSQL"]:::db
-    DB3["🗄️ MongoDB"]:::db
-    DO["☁️ DEVOPS<br/>Git / Docker / CI-CD / AWS"]:::devops
-
-    U --> FE --> API --> BE
-    BE --> DB1
-    BE --> DB2
-    BE --> DB3
-    DB1 --> DO
-    DB2 --> DO
-    DB3 --> DO
-
-    classDef user fill:#FFD700,stroke:#FF8C00,stroke-width:2px,color:#000,font-weight:bold
-    classDef frontend fill:#00E5FF,stroke:#0077A3,stroke-width:2px,color:#000,font-weight:bold
-    classDef api fill:#8B5CF6,stroke:#5B21B6,stroke-width:2px,color:#fff,font-weight:bold
-    classDef backend fill:#FF8C00,stroke:#B85C00,stroke-width:2px,color:#000,font-weight:bold
-    classDef db fill:#00FF88,stroke:#00A855,stroke-width:2px,color:#000,font-weight:bold
-    classDef devops fill:#FF0080,stroke:#B8005C,stroke-width:2px,color:#fff,font-weight:bold
-```
+<img width="42%" src="architecture-flow.svg" alt="Animated request and response flow through the system architecture"/>
 
 </div>
 
