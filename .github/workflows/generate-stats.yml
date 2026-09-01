@@ -29,7 +29,7 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=050816&title_color=FF0080&icon_color=00E5FF&text_color=FFFFFF
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generate top languages card
         uses: soulteary/github-readme-stats-action@v1.0.0
@@ -38,7 +38,7 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=050816&title_color=FF0080&text_color=FFFFFF
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Commit and push generated cards
         run: |
