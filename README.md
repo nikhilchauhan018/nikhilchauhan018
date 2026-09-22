@@ -23,7 +23,7 @@
 
 <br><br>
 
-> 🛰️ **Building scalable, responsive, and production-ready web applications with modern frontend and backend technologies.**
+>  **Building scalable, responsive, and production-ready web applications with modern frontend and backend technologies.**
 
 <br>
 
@@ -145,7 +145,7 @@ nikhil@github:~$ cat mission.txt
 
 nikhil@github:~$ echo $NEXT
 
-🚀 Become a stronger software engineer.
+ Become a stronger software engineer.
 ```
 
 </td>
@@ -307,11 +307,11 @@ nikhil@github:~$ echo $NEXT
 
 A smart alarm project focused on intelligent wake-up experiences and adaptive alarm behavior.
 
-- 🧠 Smart alarm concept
-- 🤖 Intelligent behavior
-- 💡 Product innovation
-- ✨ User experience
-- 📜 Patented project
+-  Smart alarm concept
+-  Intelligent behavior
+-  Product innovation
+-  User experience
+-  Patented project
 
 </td>
 
@@ -322,11 +322,11 @@ A smart alarm project focused on intelligent wake-up experiences and adaptive al
 
 A research-oriented system using RGB-D data and temporal facial micro-motion analysis.
 
-- 📷 RGB-D data
-- 😐 Facial analysis
-- ⏱️ Temporal information
-- 🔬 Micro-motion detection
-- 🧪 Research-oriented system
+-  RGB-D data
+- Facial analysis
+- Temporal information
+- Micro-motion detection
+-  Research-oriented system
 
 <img height="52" src="https://skillicons.dev/icons?i=python&theme=dark"/>
 
